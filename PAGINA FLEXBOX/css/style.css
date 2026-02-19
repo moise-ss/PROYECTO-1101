@@ -43,7 +43,7 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 1.1em;
-    color: rgb(203, 241, 180);
+    color: rgb(255, 255, 255);
     flex-direction: column;
     padding: 40px 0;     /* Añade espacio vertical */
     box-sizing: border-box;
@@ -51,7 +51,7 @@ section {
 }
 
 section:nth-child(1) {
-    background-color: #3498db;
+    background-color: #000000;
 }
 
 section:nth-child(2) {
@@ -90,7 +90,7 @@ section:nth-child(5) {
 .card button {
     margin-top: 10px;
     background: #007bff;
-    color: #9ecdcfd4;
+    color: #ffffffd4;
     border: none;
     padding: 8px 12px;
     border-radius: none6px;
