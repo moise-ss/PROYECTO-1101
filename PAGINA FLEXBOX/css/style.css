@@ -9,7 +9,7 @@ nav {
     top: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
     z-index: 1000;
 }
 
@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #ed2020;
+    background: #ffffff;
     border-radius: 5px;
 }
 
@@ -43,7 +43,7 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 1.1em;
-    color: rgb(203, 241, 180);
+    color: rgb(255, 255, 255);
     flex-direction: column;
     padding: 40px 0;     /* Añade espacio vertical */
     box-sizing: border-box;
@@ -51,23 +51,23 @@ section {
 }
 
 section:nth-child(1) {
-    background-color: #3498db;
+    background-color: #000000;
 }
 
 section:nth-child(2) {
-    background-color: #e74c3c;
+    background-color: #474747;
 }
 
 section:nth-child(3) {
-    background-color: #2ecc71;
+    background-color: #000000;
 }
 
 section:nth-child(4) {
-    background-color: #f39c12;
+    background-color: #474747;
 }
 
 section:nth-child(5) {
-    background-color: #8e44ad;
+    background-color: #000000;
 }
 
 .card {
@@ -90,12 +90,11 @@ section:nth-child(5) {
 .card button {
     margin-top: 10px;
     background: #007bff;
-    color: #9ecdcfd4;
+    color: #ffffffd4;
     border: none;
     padding: 8px 12px;
     border-radius: none6px;
     cursor: pointer;
- 
 }
 
 dialog {
