@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campoalegre</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="campoalegre.html">Campoalegre</a></li>
+            <li><a href="neiva.html">Neiva</a></li>
+            <li><a href="section3.html">Section 3</a></li>
+            <li><a href="section4.html">Section 4</a></li>
+            <li><a href="section5.html">Section 5</a></li>
+        </ul>
+    </nav>
+
+    <main class="page">
+        <section class="sticky-section">
+            <h1>Campoalegre</h1>
+            <div class="card">
+                <img src="./img/campoalegre.jpeg" alt="Campoalegre">
+                <button onclick="modal.showModal()">Ver más</button>
+            </div>
+            <dialog id="modal"><h3>Campoalegre </h3>
+                <p>
+                    El Municipio de Campoalegre está ubicado en el centro del Departamento del Huila, distando 22 Km de perímetro urbano a perímetro urbano, entre la ciudad de Campoalegre y la ciudad de Neiva, medida tomada sobre la vía troncal del sur, que une la mayoría de los municipios regionales. El poblado fue fundado el 14 de agosto de 1809, recibió el título de aldea en 1840 y el de municipio en 1860.
+                </p>
+                <button onclick="modal.close()">Cerrar</button>
+            </dialog>
+            <p>Contenido de la página Campoalegre.</p>
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script>
+        // Exponer el dialogo como `modal` para mantener compatibilidad con onclick inline
+        const _m = document.getElementById('modal');
+        if (_m) window.modal = _m;
+    </script>
+</body>
+</html>
